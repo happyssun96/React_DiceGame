@@ -1,12 +1,15 @@
 import { useState } from "react"
 import Board from "./Board"
 import Button from "./Button"
+import "./App.css"
+import DiceImg from "./assets/logo.png"
 
 function random(n) {
   return Math.ceil(Math.random() * n)
 }
 
 function App() {
+  const src = DiceImg
   const [myHistory, setMyHistory] = useState([])
   const [otherHistory, setOtherHistory] = useState([])
 
@@ -23,12 +26,30 @@ function App() {
   }
 
   return (
-    <div>
-      <Button onClick={handleRollClick}>던지기</Button>
-      <Button onClick={handleClearClick}>처음부터</Button>
+    <div className="App">
       <div>
-        <Board name="나" color="blue" gameHistory={myHistory} />
-        <Board name="상대" color="red" gameHistory={otherHistory} />
+        <img className="App-logo" src={src} alt="주사위게임 로고" />
+        <h1 class="App-title">주사위게임</h1>
+      </div>
+      <Button className="App-button" color="blue" onClick={handleRollClick}>
+        던지기
+      </Button>
+      <Button className="App-button" color="red" onClick={handleClearClick}>
+        처음부터
+      </Button>
+      <div className="App-boards">
+        <Board
+          className="App-board"
+          name="나"
+          color="blue"
+          gameHistory={myHistory}
+        />
+        <Board
+          className="App-board"
+          name="상대"
+          color="red"
+          gameHistory={otherHistory}
+        />
       </div>
     </div>
   )
