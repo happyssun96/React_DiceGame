@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/dice_game/static/css/main.307c860e.chunk.css",
+    "main.js": "/dice_game/static/js/main.a2d70b75.chunk.js",
+    "main.js.map": "/dice_game/static/js/main.a2d70b75.chunk.js.map",
+    "runtime-main.js": "/dice_game/static/js/runtime-main.ea4342c3.js",
+    "runtime-main.js.map": "/dice_game/static/js/runtime-main.ea4342c3.js.map",
+    "static/js/2.9e57b5d1.chunk.js": "/dice_game/static/js/2.9e57b5d1.chunk.js",
+    "static/js/2.9e57b5d1.chunk.js.map": "/dice_game/static/js/2.9e57b5d1.chunk.js.map",
+    "index.html": "/dice_game/index.html",
+    "static/css/main.307c860e.chunk.css.map": "/dice_game/static/css/main.307c860e.chunk.css.map",
+    "static/js/2.9e57b5d1.chunk.js.LICENSE.txt": "/dice_game/static/js/2.9e57b5d1.chunk.js.LICENSE.txt",
+    "static/media/dice-blue-1.46ea1848.svg": "/dice_game/static/media/dice-blue-1.46ea1848.svg",
+    "static/media/dice-blue-2.f95a9460.svg": "/dice_game/static/media/dice-blue-2.f95a9460.svg",
+    "static/media/dice-blue-3.067ae228.svg": "/dice_game/static/media/dice-blue-3.067ae228.svg",
+    "static/media/dice-blue-4.e11e6c54.svg": "/dice_game/static/media/dice-blue-4.e11e6c54.svg",
+    "static/media/dice-blue-5.ec1687ca.svg": "/dice_game/static/media/dice-blue-5.ec1687ca.svg",
+    "static/media/dice-blue-6.85b4d41e.svg": "/dice_game/static/media/dice-blue-6.85b4d41e.svg",
+    "static/media/dice-red-1.a9a39d36.svg": "/dice_game/static/media/dice-red-1.a9a39d36.svg",
+    "static/media/dice-red-2.03dd6934.svg": "/dice_game/static/media/dice-red-2.03dd6934.svg",
+    "static/media/dice-red-3.3297d6b8.svg": "/dice_game/static/media/dice-red-3.3297d6b8.svg",
+    "static/media/dice-red-4.ce794180.svg": "/dice_game/static/media/dice-red-4.ce794180.svg",
+    "static/media/dice-red-5.8adaa7ef.svg": "/dice_game/static/media/dice-red-5.8adaa7ef.svg",
+    "static/media/dice-red-6.3ee98ff0.svg": "/dice_game/static/media/dice-red-6.3ee98ff0.svg",
+    "static/media/logo.bd05682d.png": "/dice_game/static/media/logo.bd05682d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea4342c3.js",
+    "static/js/2.9e57b5d1.chunk.js",
+    "static/css/main.307c860e.chunk.css",
+    "static/js/main.a2d70b75.chunk.js"
+  ]
+}
