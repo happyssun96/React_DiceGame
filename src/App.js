@@ -2,6 +2,7 @@ import { useState } from "react"
 import Board from "./Board"
 import Button from "./Button"
 import "./App.css"
+import "./index.css"
 import DiceImg from "./assets/logo.png"
 
 function random(n) {
